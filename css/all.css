@@ -1,0 +1,33 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1567973007332-a246ec31a2b0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1900&q=80);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+li {
+    list-style-type: none;
+}
+
+.op{
+    opacity: 0.8;
+}
+
+.op:hover{
+    opacity: 1;
+}
+
+.for-btn-postion{
+    position: relative;
+}
+
+.btn-postion{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}

@@ -1,0 +1,149 @@
+header {
+    background-image: url(../images/Hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 380px;
+}
+
+.bgCover {
+    background-size: cover;
+    background-position: center center;
+}
+
+/* 下拉選單透明度 */
+.selct-opacity {
+    background: rgba(255, 255, 255, 0.6);
+}
+
+/* 把熱門行政區區塊往上移動 */
+.mt-minus {
+    margin-top: -30px;
+}
+
+.scaleAnimate {
+    /* 動畫用 */
+    animation-name: test;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    /* 讓箭頭置中用 */
+    position: absolute;
+    top: calc(50% - 5.5px);
+    left: calc(50% - 8px);
+}
+
+/* 動畫用 */
+@keyframes test {
+    0% {
+        transform: scaleX(-1);
+    }
+
+    50% {
+        transform: scaleX(0);
+    }
+
+    100% {
+        transform: scaleX(-1);
+    }
+}
+
+/* 箭頭圖案的外框 */
+.circleBorder {
+    width: 18px;
+    height: 18px;
+    border-radius: 999em;
+    border: 1px solid #559AC8;
+    position: relative;
+}
+
+/* 前後線條用 */
+.circleLine {
+    position: relative;
+}
+
+.circleLine:before,
+.circleLine:after {
+    content: "";
+    position: absolute;
+    background: #559AC8;
+    top: 50%;
+    width: 36%;
+    height: 1px;
+}
+
+.circleLine:before {
+    left: 13%;
+}
+
+.circleLine:after {
+    right: 13%;
+}
+
+/* 卡片上文字用 */
+.card-overlay {
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+}
+
+/* 卡片圖片大小 */
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+/* 卡片陰影 */
+.card-shadow {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.20);
+}
+
+
+.iconAlign {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+/* 標題顏色 */
+.text-color {
+    color: #8A82CC;
+}
+
+/* 卡片圖片高度 */
+.img-height {
+    height: 155px;
+}
+
+/* 熱門行政區按鈕顏色 */
+.bg-8A82CC {
+    background: #8A82CC;
+    border-radius: 5px;
+}
+
+.bg-FFA782 {
+    background: #FFA782;
+    border-radius: 5px;
+}
+
+.bg-F5D005 {
+    background: #F5D005;
+    border-radius: 5px;
+}
+
+.bg-559AC8 {
+    background: #559AC8;
+    border-radius: 5px;
+}
+
+/* footer 背景顏色 */
+.ft-bg{
+    background-color: #559AC8;
+}
+
+/* 回到 top 用 */
+.gotop{
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        #title1 {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <h1>顧客點餐</h1>
+        <p>服務生：Hello，要點什麼？</p>
+        <p>顧客：給我<input type="text" id="hamNumId" value="1">個漢堡，再<input type="text" id="cokeNumId" value="1">杯可樂</p>
+        <p>服務生：<input type="button" value="計算" id="countId">好的，總計是 <em id="totalId" class="tag"></em> 元</p>
+    </div>
+    <section>
+        <p>我現在飢餓度是<input type="number" name="" id="inHungry"></p>
+        <p>所以我<em id="eatWhat"></em></p>
+    </section>
+    <section>
+        <p>目前的警戒燈號是
+            <select id="lightColor">
+                <option value="red">紅燈</option>
+                <option value="yellow">黃燈</option>
+                <option value="green">綠燈</option>
+            </select>
+            <input type="button" value="查詢" id="lightId">
+        </p>
+    </section>
+    <section>
+        <p id="testId" class="testClass">5678~~~<em></em></p>
+        <p id="testId" class="testClass">5678~~~<em></em></p>
+    </section>
+    <script src="./js/jsSlec.js"></script>
+</body>
+
+</html>

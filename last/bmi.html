@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BMI 計算機</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/bmi.css">
+</head>
+
+<body>
+    <header class="header-bg">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 p-lg-5 p-2 d-flex flex-md-row flex-column align-items-center">
+                    <h1><a href="./bmi.html"></h1><img src="./images/BMICLogo.png" alt="BMI計算機"
+                        class="mx-lg-5 mr-2"></a></h1>
+                    <div class="mx-lg-5 mx-2 mb-3">
+                        <p class="mb-0 text-color">身高 cm</p>
+                        <input type="number"" class=" input-set mb-2 input-height" placeholder="請輸入身高">
+                        <p class="mb-0 text-color">體重 kg</p>
+                        <input type="number" class="input-set input-weight" placeholder="請輸入身高">
+                    </div>
+                    <div class="ml-lg-0 ml-0 changeBtn">
+                        <button class="btn rounded-circle btn-set result">看結果</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="py-5 content-bg">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <h2 class="text-center text-color-dark h4 mb-3">BMI 紀錄</h2>
+                    <ul class="list-group text-color-dark list">
+                    </ul>
+                    <a href="#" class="btn btn-danger btn-lg btn-block btn-del">清除所有資料</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="py-4 ft-bg text-center footer">
+        <img src="./images/BMICLogoDark.png">
+    </footer>
+    <script src="./js/bmi.js"></script>
+</body>
+
+</html>
